@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h1>Jesienią mówimy <b>TAK!</b></h1>
-                <hr>
+
+    <div class="container-fluid  text-center bg-strawberry">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class='bg-h1 text-center'>Latem mówimy <b>TAK!</b></h1>
+                </div>
+                <div class="col-md-12">
+                    <img class="slider-couple" src="img/couple1.jpg">
+                    <img class="slider-couple" src="img/couple2.jpg">
+                    <img class="slider-couple" src="img/couple3.jpg">
+                    <img class="slider-couple" src="img/couple4.jpg">
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
-                <div>
+            <div class="col-md-6 col-12 d-flex align-items-center">
+                <div style="width: 100%">
                     <h3>Drodzy Goście!</h3>
-                    <p>
-                        Mamy nadzieję, że razem 
-                        
-                        z nami będziecie uczestniczyć w dniu, 
-                        
+                    <p class="text-justify">
+                        Mamy nadzieję, że razem
+
+                        z nami będziecie uczestniczyć w dniu,
+
                         kiedy powiemy sobie: <b><i class="primary-color">TAK.</i></b>
-                        
-                        Zanim poczęstujemy Was naszym weselnym tortem, częstujcie się porcją przydatnych informacji.                    
+
+                        Zanim poczęstujemy Was naszym weselnym tortem, częstujcie się porcją przydatnych informacji.
                     </p>
+                </div>
             </div>
-            </div>
-            <div class="col-md-6">
-                <img class="own-photo" src="img/TruskaweczkaSzypulka.jpg">
+            <div class="col-md-6 col-12">
+
+                <div class="container-photo-couple">
+                    <img class="photo-couple" src="img/couple.jpg">
+                    <p class="text-secondary">To my! Kamil i Aneta <i class="fas text-danger fa-heart"></i></p>
+
+                    <span class="heart-history fa-layers heart-animation fa-5x">
+                        <i class="fas fa-heart text-danger" data-fa-transform="rotate--30"></i>
+                        <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30"
+                            style="font-weight:900;font-size:0.5em">Nasza historia</span>
+                    </span>
+
+
+                </div>
             </div>
         </div>
+    </div>
+
+    <!-- <div class="container mt-5">
         <div class="row mt-3">
             <div class="col-md-12 text-center">
                 <h2>Mówimy sobie TAK za:</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-3 col-md-2 text-center">
                 <img src="img/wedding-ring-60.png">
                 <br>
@@ -53,70 +82,90 @@
             <div class="col-3 col-md-2 text-center">
                 <img src="img/church-60.png">
                 <br>
-                <span>30.10.2021</span>
+                <span>12.08.2021</span>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-12 mt-3 text-center">
                 <h2 id="countdown"></h2>
             </div>
         </div>
+    </div> -->
 
+    <div class="container mt-6">
         <div class="row">
             <div class="col-md-5 col-12">
-                <img src="img/mapa.png">
-            </div>                
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d81544.27509460798!2d18.49726299744534!3d50.30576606180744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x47113d600e0a7443%3A0x628f0ce100af7b4c!2sLe%C5%9Bna%20Per%C5%82a%20-%20Restauracja%20i%20Hotel%2C%20Le%C5%9Bna%2C%20Rudziniec!3m2!1d50.367656499999995!2d18.4072779!4m5!1s0x47113691d89f1de7%3A0x9aeff01f131c7840!2zS2_Fm2Npw7PFgiBSenltc2tva2F0b2xpY2tpIHB3LiDFm3cuIMWbdy4gQ3lyeWxhIGkgTWV0b2RlZ28sIE5pZXBvZGxlZ8WCb8WbY2ksIEtudXLDs3c!3m2!1d50.221191999999995!2d18.670503!5e0!3m2!1spl!2spl!4v1616538692494!5m2!1spl!2spl"
+                    style="border:0;width:100%;height:100%;" allowfullscreen loading="lazy"></iframe>
+            </div>
             <div class="col-md-7 col-12">
                 <img class="mb-3" src="img/church.png">
                 <h3>Ceremonia odbędzie się</h3>
                 <p>
-                        <b>30.10.2021</b> o godz. <b>13:00</b>
-                        <br>
-                        w kościele <b>pw. św. Michała Archanioła w Żernicy</b>
-                        <br>
-                        przy ul. Leopolda Miki 3                    
+                    <b>12.08.2021</b> o godz. <b>13:00</b>
+                    <br>
+                    w kościele <b>pw. śś. Cyryla i Metodego w Knurowie</b>
+                    <br>
+                    przy ul. Niepodległości 1
                 </p>
                 <img class="mb-3" src="img/cake.png">
                 <h3>Po ceremonii kościelnej</h3>
                 <p>
-                        zapraszamy na przyjęcie weselne, które odbędzie się w <b>Restauracji Leśna Perła w Rudzińcu</b>
+                    zapraszamy na przyjęcie weselne, które odbędzie się w <b>Restauracji Leśna Perła w Rudzińcu</b>
 
-                        przy ulicy Leśnej 1                    
+                    przy ulicy Leśnej 1
                 </p>
-                <img class="mb-3" src="img/church.png">
-                <h3>Na poprawiny</h3>
-                <p>zapraszamy na godz. <b>14:00</b></p>
             </div>
         </div>
-
+    </div>
+    <div class="container mt-4">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center mt-5">
                 <h2>Drodzy Goście!</h2>
                 <p>
-                        Prosimy kwiatów nam nie kupować,
+                    Prosimy kwiatów nam nie kupować,
 
-                        lecz butelką wina nas obdarować.                    
+                    lecz butelką wina nas obdarować.
                 </p>
                 <img src="img/flower-bouquet.png">
                 <img src="img/arrow-pointing-to-right.png">
                 <img src="img/wine.png">
             </div>
         </div>
+    </div>
 
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2>Prosimy o potwierdzenie </h2>
-                <h2>Waszej obecności do 15.09.2021</h2>
+                <h2>Waszej obecności do 05.07.2021</h2>
             </div>
         </div>
-
     </div>
+
+    <div class="container-fluid text-center bg-strawberry">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <br>
+                    Przybywajcie!<br>
+                    Truskawka i Szypułka<br>
+                    2021
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous"></script>
 <script src="js/countdown.js"></script>
 <script src="main.js"></script>
+<script src="https://kit.fontawesome.com/37332de027.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
 
 
 </html>

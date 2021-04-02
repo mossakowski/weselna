@@ -1,0 +1,427 @@
+interface epon-onu_0/11/4:1
+  admin enable
+  property description Reszczynski_Miarki_6/1
+  property user-info 1x4
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 279,400  tag vport 1
+exit
+interface epon-onu_0/11/4:2
+  admin enable
+  property description Donat_Kosciuszki_3/5
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 193  tag vport 1
+exit
+interface epon-onu_0/11/4:3
+  admin enable
+  property description Wisniewska_Kosciuszki_1/2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 294  tag vport 1
+exit
+interface epon-onu_0/11/4:4
+  admin enable
+  property description Otremba_Kosciuszki_2/4
+  property user-info 1x2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 106  tag vport 1
+exit
+interface epon-onu_0/11/4:5
+  admin enable
+  property description Kosciuszki_7
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 331,400  tag vport 1
+exit
+interface epon-onu_0/11/4:6
+  admin enable
+  property description Knura_Kosciuszki_7/2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 331,401  tag vport 1
+exit
+interface epon-onu_0/11/4:7
+  admin enable
+  property description Kosciuszki_4
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 193  tag vport 1
+exit
+interface epon-onu_0/11/4:8
+  admin enable
+  property description Kutyla_Kosciuszki_2/1
+  property user-info 1x2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 106  tag vport 1
+exit
+interface epon-onu_0/11/4:9
+  admin enable
+  property description Rzadeczka_Kosciuszki_5
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 329,400  tag vport 1
+exit
+interface epon-onu_0/11/4:10
+  admin enable
+  property description Kosciuszki_6
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 347  tag vport 1
+exit
+interface epon-onu_0/11/4:11
+  admin enable
+  property description Deren_Dworcowa_32
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 323  tag vport 1
+exit
+interface epon-onu_0/11/4:12
+  admin enable
+  property description Wolnicki_Kosciuszki_5/4
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 329,400  tag vport 1
+exit
+interface epon-onu_0/11/4:13
+  admin enable
+  property description Kmiecik_Dworcowa_27/5
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 193  tag vport 1
+exit
+interface epon-onu_0/11/4:14
+  admin enable
+  property description Grochal_Dworcowa_27/6
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 193  tag vport 1
+exit
+interface epon-onu_0/11/4:15
+  admin enable
+  property description Szwagrzyk_Dworcowa_27/1
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 193  tag vport 1
+exit
+interface epon-onu_0/11/4:16
+  admin enable
+  property description Domanska_Poniatowskiego_1/3
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 276  tag vport 1
+exit
+interface epon-onu_0/11/4:17
+  admin enable
+  property description Ogrodniczuk_Kosciuszki_1/4
+  property user-info 1x2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 294  tag vport 1
+exit 
+interface epon-onu_0/11/4:18
+  admin enable
+  property description Wolnicka_Kosciuszki_5/5
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 329,401  tag vport 1
+exit
+interface epon-onu_0/11/4:19
+  admin enable
+  property description Miarki_2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 266  tag vport 1
+exit
+interface epon-onu_0/11/4:20
+  admin enable
+  property description Wyrembowski_Miarki_2/1
+  property user-info 1x4 15_03_2021
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 266  tag vport 1
+exit
+interface epon-onu_0/11/4:21
+  admin enable
+  property description Koczy_Miarki_4/2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 321  tag vport 1
+exit
+interface epon-onu_0/11/4:22
+  admin enable
+  property description Poniatowskiego_6
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 326,401  tag vport 1
+exit
+interface epon-onu_0/11/4:23
+  admin enable
+  property description Baranek_Miarki_1/2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 212  tag vport 1
+exit
+interface epon-onu_0/11/4:24
+  admin enable
+  property description Poniatowskiego_3
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 275  tag vport 1
+exit
+interface epon-onu_0/11/4:25
+  admin enable
+  property description Poniatowskiego_1
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 276,400  tag vport 1
+exit
+interface epon-onu_0/11/4:26
+  admin enable
+  property description Zakrzewska_Miarki_3
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 214  tag vport 1
+exit
+interface epon-onu_0/11/4:27
+  admin enable
+  property description Blaszczyk_Miarki_6/5
+  property user-info 1x4 16.02.2021
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 279  tag vport 1
+exit
+interface epon-onu_0/11/4:28
+  admin enable
+  property description Zbiorcza_Poniatowskiego_8
+  sla downstream maximum 524288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 280  tag vport 1
+exit
+interface epon-onu_0/11/4:29
+  admin enable
+  property description Potempa_Poniatowskiego_8/3
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 280  tag vport 1
+exit
+interface epon-onu_0/11/4:30
+  admin enable
+  property description Wasilewski_Miarki_4/4
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 321,401  tag vport 1
+exit
+interface epon-onu_0/11/4:31
+  admin enable
+  property description Wyrembowski_Poniatowskiego_4/3
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 274  tag vport 1
+exit
+interface epon-onu_0/11/4:32
+  admin enable
+  property description Pilarska_Poniatowskiego_6/2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 326  tag vport 1
+exit
+interface epon-onu_0/11/4:33
+  admin enable
+  property description Lesnik_Dworcowa_34/2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 323  tag vport 1
+exit
+interface epon-onu_0/11/4:34
+  admin enable
+  property description Nowara_Dworcowa_27/2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 193  tag vport 1
+exit
+interface epon-onu_0/11/4:35
+  admin enable
+  property description Nierada_Miarki_3/3
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 214  tag vport 1
+exit
+interface epon-onu_0/11/4:36
+  admin enable
+  property description Pietraszek_Kosciuszki_4/5
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 193,401  tag vport 1
+exit
+interface epon-onu_0/11/4:37
+  admin enable
+  property description Szpak_Miarki_4/5
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 321,401  tag vport 1
+exit
+interface epon-onu_0/11/4:38
+  admin enable
+  property description Naumowicz_Miarki_2/4
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 266  tag vport 1
+exit
+interface epon-onu_0/11/4:39
+  admin enable
+  property description Maslanka_Miarki_6/4
+  sla downstream maximum 524288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 279  tag vport 1
+exit
+interface epon-onu_0/11/4:40
+  admin enable
+  property description Blaszkiewicz_Poniatowskiego_3/1
+  property user-info Splitter 1x2
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 275,402  tag vport 1
+exit
+interface epon-onu_0/11/4:41
+  admin enable
+  property description Tkaczyk_Kosciuszki_6/5
+  property user-info Splitter 1x2 16.02.2021
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 347  tag vport 1
+exit
+interface epon-onu_0/11/4:42
+  admin enable
+  property description Baran_Kosciuszki_7/5
+  property user-info 1x4 18 02 2021
+  sla upstream fixed 0 fixedpkt 64 assured 10000 maximum 724288 maxburst 45000 priority 0 vport 1
+  sla downstream maximum 724288 vport 1
+  encrypt direction downstream  enable  vport 1
+  ems-autocfg-request enable
+  switchport mode trunk vport 1
+  switchport vlan 331,402  tag vport 1
+exit
