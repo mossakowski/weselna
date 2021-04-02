@@ -48,25 +48,45 @@ body {
     transform: rotate(1deg);
 }
 
-.heart-history {
+.bg-history {
+    display: none;
+    background-color: #820000c2;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.heart-open-history {
     position: absolute;
     bottom: 5%;
     left: 65%;
 }
 
-.heart-history-big {
-    position: fixed;
-    left: 25%;
-    z-index: 9999;
-    font-size: 2250%;
-}
-
-.heart-history:hover {
+.heart-open-history:hover {
     cursor: pointer;
 }
 
 .heart-animation {
     animation: 3s infinite beatHeart;
+}
+
+.fa-phone {
+    animation: 1s infinite vibrationPhone;
+}
+
+@keyframes vibrationPhone {
+    0% {
+        transform: rotate(310deg);
+    }
+    50% {
+        transform: rotate(325deg);
+    }
+    100% {
+        transform: rotate(310deg);
+    }
 }
 
 @keyframes beatHeart {

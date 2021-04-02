@@ -3,7 +3,10 @@
 
 const el_bikers = document.getElementById('bikers');
 const el_countdown = document.getElementById('countdown');
-const el_heart_history = document.querySelector('.heart-history');
+const btn_heart_open_history = document.querySelector('.heart-open-history');
+const el_bg_history = document.querySelector('.bg-history');
+
+const btn_close_history = document.querySelector('.btn-close-history');
 
 function calc_bikers_position() {
     let window_width = window.innerWidth;
@@ -24,8 +27,14 @@ setInterval(function () {
     el_countdown.textContent = time;
 }, 1000)
 
-el_heart_history.addEventListener('click', function() {
-    alert('elo');
+btn_heart_open_history.addEventListener('click', function() {
+    // el_bg_history.style.display = "block";
+    let arr = 'align-items-center justify-items-center d-flex';
+    el_bg_history.classList.add('align-items-center', 'justify-content-center','d-flex', 'flex-column');
 });
+
+btn_close_history.addEventListener('click', function() {
+    el_bg_history.classList.remove('align-items-center', 'justify-content-center','d-flex', 'flex-column');
+})
 
 calc_bikers_position();
