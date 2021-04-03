@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <div class="bg-history text-center">
-        <i class="fas fa-heart text-danger"></i>
-        <p class="text-white">
-            Pewna dziewczyna w przedszkolu pracowała.<br>
-            Wszyscy się dziwili, że tam męża poznała<br>
-            Tylko na chwilę przyjechał, a wciąż o niej myślał kiedy odjechał.<br>
-            Nigdy nie marzył sobie, że żonę pozna przez pasję i rower.<br>
-            Nawet w gazecie o tym pisali, dzisiaj Wam o tym opowiadamy.<br>
-            Historia jest prawdziwa, jak nasza miłość: żywa i szczęśliwa!
-        </p>
-        <button class="btn btn-danger btn-close-history">Przeczytałem!</button>
+    <div class="bg-history">
+        <i class="fas fa-heart"></i>
+        <div class="container-history block-history text-center">
+            <p class="text-white">
+                Pewna dziewczyna w przedszkolu pracowała.<br>
+                Wszyscy się dziwili, że tam męża poznała<br>
+                Tylko na chwilę przyjechał, a wciąż o niej myślał kiedy odjechał.<br>
+                Nigdy nie marzył sobie, że żonę pozna przez pasję i rower.<br>
+                Nawet w gazecie o tym pisali, dzisiaj Wam o tym opowiadamy.<br>
+                Historia jest prawdziwa, jak nasza miłość: żywa i szczęśliwa!
+            </p>
+            <button style="background:#a21522" class="btn text-white btn-close-history">Zamknij serducho!</button>
+        </div>
     </div>
 
     <div class="container-fluid  text-center bg-strawberry">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1 class='bg-h1 text-center'>Latem mówimy <b>TAK!</b></h1>
+                <div class="col-md-12 h1-bg text-center">
+                    <h1 class='text-center'>Latem mówimy <b>TAK!</b></h1>
                 </div>
                 <div class="col-md-12">
                     <img class="slider-couple" src="img/couple1.jpg">
@@ -64,7 +67,7 @@
                     <img class="photo-couple" src="img/couple.jpg">
                     <p class="text-secondary">To my! Kamil i Aneta <i class="fas text-danger fa-heart"></i></p>
 
-                    <span class="heart-open-history fa-layers heart-animation fa-5x">
+                    <span class="heart-open-history fa-layers heart-open-history-animation fa-5x">
                         <i class="fas fa-heart text-danger" data-fa-transform="rotate--30"></i>
                         <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30"
                             style="font-weight:900;font-size:0.5em">Nasza historia</span>
@@ -150,12 +153,9 @@
 
     <div class="container mt-6">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-8 d-flex justify-content-center flex-column text-center">
-                <h2>Prosimy o potwierdzenie </h2>
+            <div class="col-md-12 d-flex justify-content-center flex-column text-center">
+                <h2>Prosimy o potwierdzenie<i class="fas fa-phone fa-1x text-dark"></i> </h2>
                 <h2>Waszej obecności do 05.07.2021</h2>
-            </div>
-            <div class="col-md-2 text-left d-flex align-items-center">
-                <i class="fas fa-phone fa-3x text-dark"></i>
             </div>
         </div>
     </div>
@@ -179,9 +179,9 @@
     integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
     crossorigin="anonymous"></script>
 <script src="js/countdown.js"></script>
-<script src="main.js"></script>
 <script src="https://kit.fontawesome.com/37332de027.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+<script src="main.js"></script>
 
 
 </html>

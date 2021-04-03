@@ -1,21 +1,21 @@
+
+/* Fonts */
 @font-face {
     font-family: 'Arima Madurai Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Arima Madurai Regular'), url('./fonts/ArimaMadurai-Regular.woff') format('woff');
+    src: local('Arima Madurai Regular'), url('../fonts/ArimaMadurai-Regular.woff') format('woff');
+}
+
+/* Body */
+body {
+    font-family: 'Arima Madurai Regular' !important;
+    font-size: 1.5rem !important;
+    color: #7204b1 !important;
 }
 
 
-.bg-strawberry {
-    background-image: url('img/bg.png');
-    padding: 30px 0px;
-}
-
-.bg-h1 {
-    background-color: rgba(255, 255, 255, 0.9);
-    display: inline;
-    padding: 15px;
-}
+/* Color and headings */
 
 .primary-color {
     color: #fc0069;
@@ -31,32 +31,67 @@ h4 {
 
 h1 {
     font-size: 4.0rem !important;
+    display: inline;
+    padding: 15px;    
+}
+
+.h1-bg {
+    background-color: rgba(255, 255, 255, 0.9);    
+    display: inline;
+    border-radius: 15px;
 }
 
 h2 {
     font-size: 3rem !important;
 }
 
-body {
-    font-family: 'Arima Madurai Regular' !important;
-    font-size: 1.5rem !important;
-    color: #7204b1 !important;
+
+.bg-strawberry {
+    background-image: url('../img/bg.png');
+    padding: 30px 0px;
 }
+
 
 .container-photo-couple {
     position: relative;
     transform: rotate(1deg);
 }
 
+/* History section */
 .bg-history {
     display: none;
-    background-color: #820000c2;
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
+}
+
+.container-history {
+    position: absolute;
+}
+
+.container-history-opacity-to-1 {
+    opacity: 0;
+    animation: 0.8s opacity-to-1 forwards;
+}
+
+.container-history-opacity-to-0 {
+    opacity: 1;
+    animation: 0.8s opacity-to-0 forwards;
+}
+
+.heart-bg-open {
+    color: var(--danger);
+    opacity: 0.95;
+    animation: 0.8s heart-grow-history forwards;
+}
+
+.heart-bg-close {
+    color: var(--danger);
+    opacity: 0.95;
+    animation: 0.8s heart-shrink-history forwards;
 }
 
 .heart-open-history {
@@ -69,7 +104,7 @@ body {
     cursor: pointer;
 }
 
-.heart-animation {
+.heart-open-history-animation {
     animation: 3s infinite beatHeart;
 }
 
@@ -77,39 +112,7 @@ body {
     animation: 1s infinite vibrationPhone;
 }
 
-@keyframes vibrationPhone {
-    0% {
-        transform: rotate(310deg);
-    }
-    50% {
-        transform: rotate(325deg);
-    }
-    100% {
-        transform: rotate(310deg);
-    }
-}
 
-@keyframes beatHeart {
-    0% {
-        transform: scale(1);
-    }
-
-    25% {
-        transform: scale(1.1);
-    }
-
-    40% {
-        transform: scale(1);
-    }
-
-    60% {
-        transform: scale(1.1);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
 
 .photo-couple {
     width: 100%;

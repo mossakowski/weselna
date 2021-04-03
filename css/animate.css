@@ -1,0 +1,69 @@
+@keyframes heart-grow-history {
+    0% {
+        font-size: 0px;
+    }
+    100% {
+        font-size: 3100px;
+    }
+}
+
+@keyframes heart-shrink-history {
+    0% {
+        font-size: 3100px;
+    }
+    100% {
+        font-size: 0px;
+    }
+}
+
+@keyframes vibrationPhone {
+    0% {
+        transform: rotate(310deg);
+    }
+    50% {
+        transform: rotate(325deg);
+    }
+    100% {
+        transform: rotate(310deg);
+    }
+}
+
+@keyframes beatHeart {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes opacity-to-1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity-to-0 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
