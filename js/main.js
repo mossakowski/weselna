@@ -10,7 +10,7 @@ function calc_bikers_position() {
     let window_width = window.innerWidth;
 
     let date_now = moment();
-    let date_wedding = moment("2021-08-12");
+    let date_wedding = moment("2022-08-12");
     let daysDiff = date_wedding.diff(date_now, "days");
     if (window_width >= 576) {
         let position_left = (daysDiff * 100) / 422;
@@ -21,7 +21,7 @@ function calc_bikers_position() {
 }
 
 setInterval(function () {
-    let time = countdown(moment(), moment("2021-08-12 13:00:00"), countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS).toString();
+    let time = countdown(moment(), moment("2022-08-12 13:00:00"), countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS).toString();
     el_countdown.textContent = time;
 }, 1000)
 
